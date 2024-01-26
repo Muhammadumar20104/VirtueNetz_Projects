@@ -1,8 +1,16 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function Contact() {
+    const navigate=useNavigate()
+    const Back=()=>{
+        navigate("/")
+    }
     return (
+        <>
         <div className='text-9xl flex flex-row justify-center w-full'>Contact</div>
+        <button onClick={Back}> GO Back</button>
+        </>
     //   <div className="w-[100%] h-[100%] md:p-10 xs:p-2 bg-slate-100">
     //     {/* <div> */}
     //     <div className="w-[100%] h-[100%] xs:mt-12">
