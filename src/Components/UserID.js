@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const StyleButton = styled.button`
 background-color:brown;
 color:#fff;
-padding:${({userID})=>(userID? `${userID}px`:'5px')} ${({userID})=>(userID? `${userID}px`:'5px')} ;
+padding:${({ userID }) => (userID ? `${userID}px` : '5px')} ${({ userID }) => (userID ? `${userID}px` : '5px')} ;
 font-size:16px;
 border: none;
 border-radius:4px;

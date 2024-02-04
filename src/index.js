@@ -10,6 +10,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import UserID from './Components/UserID';
 import Github, { GitHubData } from './Components/Github';
+import Bootstrap from './Components/Bootstrap';
 
 // First Way To Define Routes 
 // const router = createBrowserRouter([{
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
       <Route path='user' element={<UserID />} />
+      <Route path='bootstrap' element={<Bootstrap />} />
       <Route
         loader={GitHubData}
         path='github'

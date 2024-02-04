@@ -37,6 +37,9 @@ function Header() {
                             <li>
                                 <NavLink to="user" className={({ isActive }) => `block py-2 pr-4 pl-3 ${isActive ? "text-white" : "text-orange-400"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 `}>User</NavLink>
                             </li>
+                            <li>
+                                <NavLink to="bootstrap" className={({ isActive }) => `block py-2 pr-4 pl-3 ${isActive ? "text-white" : "text-orange-400"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 `}>Bootstrap</NavLink>
+                            </li>
 
                         </ul>
                     </div>
